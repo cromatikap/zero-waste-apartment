@@ -2,7 +2,7 @@ Open your Terminal application located in `Applications/Utilities/Terminal` (und
 
 You have to type the commands below in, it's the best way to talk directly to the computer, by the way the command interpreter is called a `shell` 🐢
 
-Then, let's establish the connection and log into my server
+Then, let's establish the connection and log into the server
 ```
 ssh <username>@<server>
 ```
