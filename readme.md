@@ -17,3 +17,19 @@ Last login: <current date> from <your ip address>
 BAM you're in :)
 
 welcome to Newark, New Jersey, the server is overseas, from now on, please be patient when you type a command, you can feel some latencies due to the long physical distance.
+
+Now, you're located in your home root directory that I setup for you. The wave symbole ` ~ ` indicate the root directory.
+Let's list what's around us with `ls`:
+```
+00:18 turtlefox2020@<3 ~ ls
+www
+```
+As you can see, there is only one directory called `www`, let's go in with `cd` (which stand for Change Directory) and check the files around with `ls`:
+```
+00:32 turtlefox2020@<3 ~ cd www
+00:32 turtlefox2020@<3 ~/www ls
+fonts  index.html  readme.md
+```
+Your website is here. You can edit it the main page with `nano index.html`.
+
+Now you can remove the files and replace it by sending your website from your computer to the server's folder `www` by using the command `scp` and finally see your work on air!
