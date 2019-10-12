@@ -32,4 +32,14 @@ fonts  index.html  readme.md
 ```
 Your website is here. You can edit it the main page with `nano index.html`.
 
-Now you can remove the files with the command `remove` and replace it by your files from your computer to the server's folder `www`. I give you a hint, you have to use the command `scp`: https://stackoverflow.com/questions/343711/transferring-files-over-ssh?answertab=votes#tab-top
+Now you can remove the `www/` content with the command `remove`. 
+
+With `ls` again, you can verify that the www directory is empty accordingly to the previous command
+```
+00:32 turtlefox2020@<3 ~/www ls
+00:32 turtlefox2020@<3 ~/www
+```
+
+To terminate the connection and come back to your computer paradigm, simply type `exit`, you should come back to the Mac OS X command prompt.
+
+You will have to use the command `scp` to copy your files from your computer to the server's folder `www`: https://stackoverflow.com/questions/343711/transferring-files-over-ssh?answertab=votes#tab-top
