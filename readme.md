@@ -32,4 +32,4 @@ fonts  index.html  readme.md
 ```
 Your website is here. You can edit it the main page with `nano index.html`.
 
-Now you can remove the files and replace it by sending your website from your computer to the server's folder `www` by using the command `scp` and finally see your work on air!
+Now you can remove the files with the command `remove` and replace it by your files from your computer to the server's folder `www`. I give you a hint, you have to use the command `scp`: https://stackoverflow.com/questions/343711/transferring-files-over-ssh?answertab=votes#tab-top
