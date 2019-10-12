@@ -16,7 +16,7 @@ Last login: <current date> from <your ip address>
 ```
 BAM you're in :)
 
-welcome to Newark, New Jersey, the server is overseas, from now on, please be patient when you type a command, you can feel some latencies due to the long physical distance.
+welcome to Newark, New Jersey, the server is overseas. Therefore, please be patient when you type a command, you can feel some latencies due to the long physical distance.
 
 Now, you're located in your home root directory that I setup for you. The wave symbole ` ~ ` indicate the root directory.
 Let's list what's around us with `ls`:
