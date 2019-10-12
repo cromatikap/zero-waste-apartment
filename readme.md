@@ -12,7 +12,7 @@ It gonna ask for a password, type the one in the email. It's normal that you don
 If you see this:
 ```
 Last login: <current date> from <your ip address>
-00:18 turtlefox2020@<3 ~
+<time> turtlefox2020@<3 ~
 ```
 BAM you're in :)
 
