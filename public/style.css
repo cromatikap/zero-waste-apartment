@@ -1,0 +1,98 @@
+@font-face {
+  font-family: bebas;
+  src: url(fonts/BebasNeue-Regular.woff);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/MontserratAlternates-ExtraLight.otf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+body{
+  font-family: roboto;
+  background-color: white;
+  text-align: center;
+  background-image: url('assets/header-background.jpeg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+#img-front{
+  height: 45vw;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  /*
+  fadeIn On Scroll simple library "AOS"
+  Example: https://codepen.io/michalsnik/pen/WxNdvq/
+  */
+}
+header{
+  font-family: bebas;
+  background-color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  margin-top: -36px;
+  width: 100vw;
+  animation: fadein 2s;
+}
+header h1 { margin: 0; padding: 0;}
+header h2{ margin: 0; padding: 0;
+  font-family: montserrat;
+  font-size: xx-small;
+}
+
+main{
+  background-color: white;
+}
+
+main #emojis{ margin: 0; padding: 10px; font-size: x-large;}
+
+main section#one {
+  background: url('assets/view.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 33vw 53vw 0vw 0vw;
+}
+main section#one h3{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 15px;
+  margin: 0;
+  border-radius: 0px 50px 0px 0px;
+  animation: fadein 2s;
+}
+main section#two {
+  background: url('assets/soap.jpeg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vw 0vw 33vw 0vw;
+}
+main section#two strong{
+  background-color: white;
+  padding: 3px;
+  animation: fadein 2s;
+}
+main article{
+  text-align: justify;
+  padding: 10px;
+}
+
+main #img-last{
+  height: 45vw;
+  background: url('assets/sleep-well.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
