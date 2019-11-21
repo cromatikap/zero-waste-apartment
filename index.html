@@ -4,43 +4,52 @@
     <meta charset="utf-8">
     <title>Zerowasteapartment</title>
     <link rel="stylesheet" href="public/style.css">
+    <link href="public/lib/aos/aos.css" rel="stylesheet">
   </head>
   <body>
     <div id="img-front"></div>
-    <header>
+    <header data-aos="fade-right">
       <h1>Zero Waste Apartment</h1>
       <h2>Stay at Athens FIRST ZERO WASTE APARTMENT for short term rent.</h2>
     </header>
     <main>
-      <div id="emojis">👣 🌍 🌱</div>
+      <div id="emojis" data-aos="zoom-in">👣 🌍 🌱</div>
       <section id="one">
-          <h3>WHY are we creating veg zero waste homes ?</h3>
+          <h3 data-aos="fade-right">WHY are we creating veg zero waste homes ?</h3>
       </section>
-      <section id="two">
+      <section id="two" data-aos="fade-up">
         <strong>❤️ Simply, because we love nature ❤️</strong>
       </section>
-      <article>
+      <article data-aos="fade-right">
         <h2>WHAT are we doing ?</h2>
         <p>
           ☀️ We are creating zero waste households and putting sustainability into practice in order to prove their feasibility. We are embracing the environmental movement that seeks to reduce the amount of garbage on the planet by changing people’s personal consumption habits.
         </p>
       </article>
       <div id="img-last"></div>
-      <article>
+      <article data-aos="fade-right">
         <p>
           🐢 Slow down & enter a quiet oasis after a long day in Athens urban jungle. Enjoy a calm and clean atmosphere while experiencing a zero waste lifestyle.
         </p>
       </article>
-      <a href="https://ecobnb.com/GR-athens/bed-breakfast/athens-first-zero-waste-apartment/51DCC" target="_blank">
+      <a data-aos="zoom-in"
+      data-aos-duration="4000"
+      href="https://ecobnb.com/GR-athens/bed-breakfast/athens-first-zero-waste-apartment/51DCC" target="_blank">
         <img class="logo" src="public/assets/ecobnb.png" alt="ecobnb">
       </a>
-      <a href="https://www.airbnb.co.uk/rooms/37611892" target="_blank">
+      <a data-aos="zoom-in"
+      data-aos-duration="2000"
+      data-aos-delay="100"
+      href="https://www.airbnb.co.uk/rooms/37611892" target="_blank">
         <img class="logo" src="public/assets/airbnb.png" alt="airbnb">
       </a>
-      <a href="https://www.facebook.com/404048180148626/posts/have-a-look-at-athens-first-zero-waste-apartment-in-exarchia-soon-available-for-/429974997555944/" target="_blank">
+      <a data-aos="zoom-in"
+      data-aos-duration="3000"
+      data-aos-delay="300"
+      href="https://www.facebook.com/404048180148626/posts/have-a-look-at-athens-first-zero-waste-apartment-in-exarchia-soon-available-for-/429974997555944/" target="_blank">
         <img class="logo" src="public/assets/facebook.png" alt="facebook">
       </a>
-      <article>
+      <article data-aos="flip-left">
         <h2>Let's keep in touch</h2>
         <form action="index.html" method="post">
           <input type="email" name="email" placeholder="Your email">
@@ -54,5 +63,14 @@
         </ul>
       </footer>
     </main>
+
+    <!-- scripts -->
+    <script src="public/lib/aos/aos.js"></script>
+    <script>
+      AOS.init();
+      /* https://michalsnik.github.io/aos/ */
+    </script>
+    <!-- END scripts -->
+
   </body>
 </html>

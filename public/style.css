@@ -29,14 +29,7 @@ a{text-decoration: none;}
 #img-front{
   height: 45vw;
 }
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-  /*
-  fadeIn On Scroll simple library "AOS"
-  Example: https://codepen.io/michalsnik/pen/WxNdvq/
-  */
-}
+
 header{
   font-family: bebas;
   background-color: rgba(255, 255, 255, 0.55);
@@ -44,7 +37,6 @@ header{
   padding: 10px 0px 10px 0px;
   margin-top: -36px;
   width: 100vw;
-  animation: fadein 2s;
 }
 header h1 { margin: 0; padding: 0;}
 header h2{ margin: 0; padding: 0;
@@ -71,7 +63,6 @@ main section#one h3{
   padding: 15px;
   margin: 0;
   border-radius: 0px 50px 0px 0px;
-  animation: fadein 2s;
 }
 main section#two {
   background: url('assets/soap.jpeg');
@@ -83,7 +74,6 @@ main section#two {
 main section#two strong{
   background-color: white;
   padding: 3px;
-  animation: fadein 2s;
 }
 main article{
   text-align: justify;
@@ -105,16 +95,22 @@ main #img-last{
   margin-right: 6vw;
 }
 
-form input[type="email"], form textarea{
-  outline: none;
+form input, form textarea{
   border: 0;
-  border-bottom: 2px solid #555555;
-  padding-bottom: 10px;
-  margin-top: 1em;
+  outline: none;
   width: 100%;
   box-sizing: border-box;
   font-family: inherit;
+}
+form input[type="email"], form textarea{
+  border-bottom: 2px solid #555555;
+  padding-bottom: 10px;
+  margin-top: 1em;
   font-size: 1rem;
+}
+form input[type="email"]:focus, form textarea:focus{
+  border-color: red;
+  transition: all 0.75s ease-in-out;
 }
 form textarea{
   height: 100px;
@@ -123,11 +119,9 @@ form textarea{
 form input[type="submit"]{
   margin-top: 10px;
   padding: 10px;
-  width: 100%;
   background: rgb(2,0,36);
   background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   color: white;
-  border: 0;
   border-radius: 20px;
 }
 
