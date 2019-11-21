@@ -66,11 +66,13 @@
           </div>
         </a>
       </article>
-      <article data-aos="flip-left">
+      <article id="contact" data-aos="flip-left">
         <h2>Let's keep in touch</h2>
-        <form action="index.html" method="post">
-          <input type="email" name="email" placeholder="Your email">
-          <textarea name="message" placeholder="Your message" maxlength="512"></textarea>
+        <%= email.error %>
+        <%= message.error %>
+        <form action="#contact" method="post">
+          <input type="email" name="email" placeholder="Your email" value="<%= email.value %>">
+          <textarea name="message" placeholder="Your message" maxlength="512"><%= message.value %></textarea>
           <input type="submit" value="Send your message">
         </form>
       </article>
