@@ -1,3 +1,10 @@
+# Memo for bidetaggle
+
+- https://www.stbehrendtyoga.com/
+- https://fr.squarespace.com/modeles/ -> modele "FOSTER"
+
+# TUTORIAL FOR turtlefox2020
+
 Open your Terminal application located in `Applications/Utilities/Terminal` (under mac OS X)
 
 You have to type the commands below in, it's the best way to talk directly to the computer, by the way the command interpreter is called a `shell` 🐢
@@ -32,7 +39,7 @@ fonts  index.html  readme.md
 ```
 Your website is here. You can edit it the main page with `nano index.html`.
 
-Now you can remove the `www/` content with the command `remove`. 
+Now you can remove the `www/` content with the command `remove`.
 
 With `ls` again, you can verify that the www directory is empty accordingly to the previous command
 ```
