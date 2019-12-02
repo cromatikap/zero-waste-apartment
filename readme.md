@@ -1,6 +1,7 @@
 # Memo for bidetaggle
 
 - https://www.stbehrendtyoga.com/
+- https://greecetest.squarespace.com/
 - https://fr.squarespace.com/modeles/ -> modele "FOSTER"
 
 # TUTORIAL FOR turtlefox2020

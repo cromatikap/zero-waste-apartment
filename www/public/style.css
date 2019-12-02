@@ -15,16 +15,46 @@ body{
   font-family: roboto;
   background-color: white;
   text-align: center;
-  background-image: url('assets/header-background.jpeg');
+  background-image: url('assets/header-background.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  color: #737373;
 }
 
 a{text-decoration: none;}
+
+nav{background-color: white;text-align: left; padding: 5px;}
+nav #logo{
+  height: 60px;
+  background-image: url('assets/fi.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 68px;
+  width: 79px;
+  text-align: left;
+  padding-top: 10px;
+  margin: 10px;
+  font-size: smaller;
+}
+
+nav a{
+  border: 1px solid #960100;
+  color: #960100;
+  padding: 12px 18px 12px 18px;
+  margin: 8px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 3px;
+  transition: background-color 170ms ease-out,color 170ms ease-out;
+}
+nav a:hover{
+  color: #737373;
+  background-color: #960100;
+}
 
 #img-front{
   height: 45vw;
@@ -38,10 +68,11 @@ header{
   margin-top: -36px;
   width: 100vw;
 }
-header h1 { margin: 0; padding: 0;}
+header h1 { margin: 0; padding: 0; color: #960100;}
 header h2{ margin: 0; padding: 0;
   font-family: montserrat;
   font-size: xx-small;
+  color: white;
 }
 
 main{
@@ -50,6 +81,7 @@ main{
 
 main #emojis{ margin: 0; padding: 10px; font-size: x-large;}
 
+/*
 main section#one {
   background: url('assets/view.jpeg');
   background-position: center;
@@ -75,21 +107,52 @@ main section#two strong{
   background-color: white;
   padding: 3px;
 }
+*/
+
+section#vision{
+  background-image: url('assets/fi.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #D9D9D9;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(2, 50%);
+}
+section#vision div{
+}
+section#vision article{
+  background-color: white;
+  padding: 10%;
+}
+
 main article{
   text-align: justify;
   padding: 10px;
 }
+main article h1{
+  color: #960100;
+  text-transform: uppercase;
+  font-family: bebas;
+  font-size: x-large;
+  margin: 0px 0px 10% 0px;
+}
+main article p{
+  line-height: 1.8em;
+  font-family: Montserrat;
+  font-weight: bold;
+}
 
 main #img-last{
   height: 45vw;
-  background: url('assets/sleep-well.jpeg');
+  background: url('assets/plants.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
 }
 
-.logo{
+.brand-logo{
   width: 10vw;
   margin-left: 6vw;
   margin-right: 6vw;
