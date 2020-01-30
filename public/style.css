@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 #img-front{
-  height: 45vw;
+  height: 50vw;
 }
 
 header{
@@ -65,7 +65,7 @@ header{
   background-color: rgba(255, 255, 255, 0.55);
   margin: 0;
   padding: 10px 0px 10px 0px;
-  margin-top: -36px;
+  margin-top: 0px;
   width: 100vw;
 }
 header h1 { margin: 0; padding: 0; color: #960100;}
